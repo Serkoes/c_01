@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ultimate.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cchekov cchekov@student.21-school.ru       +#+  +:+       +#+        */
+/*   By: cchekov <cchekov@student.21-school.ru>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/19 19:12:23 by cchekov           #+#    #+#             */
 /*   Updated: 2021/02/19 19:13:00 by cchekov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_ultimate_ft(int *********nbr)
+void	ft_ultimate_ft(int *********nbr)
 {
 	*********nbr = 42;
 }
-
-

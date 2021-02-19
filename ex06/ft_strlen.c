@@ -1,17 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_div_mod.c                                       :+:      :+:    :+:   */
+/*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cchekov <cchekov@student.21-school.ru>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/19 19:12:23 by cchekov           #+#    #+#             */
-/*   Updated: 2021/02/19 19:13:00 by cchekov          ###   ########.fr       */
+/*   Updated: 2021/02/19 20:00:31 by cchekov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_div_mod(int a, int b, int *div, int *mod)
+int		ft_strlen(char *str)
 {
-	*div = a / b;
-	*mod = a % b;
+	int		i;
+	char	buff;
+
+	i = 0;
+	buff = '0';
+	while (buff != '\0')
+	{
+		buff = *(str + i);
+		i = i + 1;
+	}
+	return (i - 1);
 }
